@@ -1,0 +1,105 @@
+*{
+	margin : 0px;
+	padding : 0px;
+}
+header,footer,aside,section,article,nav{
+	display : block;
+}
+
+body{
+	background-color: #dddddd;
+	width : 100%;
+	display : flex;
+	align-items : center;
+}
+
+#top_bar{
+	display : flex;
+	width : 100%;
+	background-color : #5555cc;
+	height : 120px;
+	position : fixed;
+	flex : 1;
+	align-self : flex-start;
+	align-items: center;
+	justify-content : center;
+}
+#form0{
+	display : flex;
+	justify-content: center;
+	justify-content:center;
+	flex-basis:50%;
+	
+}
+.boxy{
+	
+	height : 50px; 
+	font: 20px black Tahoma; 
+	flex : 1; 
+	margin-top:0px;"
+}
+
+#imp_div{
+	width : 100%;
+	min-height : 1000px;
+	margin-top :120px;
+	display : flex;
+	flex: 1;
+	border: 1px gray solid;
+	justify-content : flex-end;
+}
+
+#aayu{
+	display : flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	flex:1;
+	min-width:350px;
+	max-width:1100px;
+	margin:20px;
+	background-color: #fefefe;
+}
+
+article{
+	background-color:white;
+	width : 300px;
+	height : 300px;
+	transition : box-shadow 0.5s;
+	margin :5px;
+	border : 1px white solid;
+	
+}
+article:hover {
+	border: 1px solid gray;
+	box-shadow : 10px 10px 10px #888888;
+}
+
+#nid{
+	background-image:url(back_list.jpg);
+	background-repeat: repeat-y;
+	width : 300px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
